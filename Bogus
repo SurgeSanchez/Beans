@@ -1,0 +1,28 @@
+package Beans;
+
+import java.util.Scanner; //Adds scanner
+
+public class Beans {   //"Has One class"
+
+	public static void main(String[] args) {
+		Scanner myObj = new Scanner(System.in); 
+	    System.out.println("What is name & age of you????????"); //Asks for input
+	    String Name = myObj.nextLine(); 
+	    int age = myObj.nextInt();
+	    if (age > 137) {
+	    	System.out.println("Yain't gonna make it past the year 2050");
+	    }else
+		    System.out.println("I wil now guess what you age is in 20 years");
+		    int bean = 20;
+			System.out.println("Your age in  the year 2040 will be....");
+			int joe = age + bean;	//Calculates age in 20 years
+			System.out.println(joe);
+
+
+	
+		
+		
+
+	}
+
+}
